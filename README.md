@@ -1,2 +1,9 @@
-# mariapgomes.github.io
-Esse é o meu portfólio
+# Portfólio
+
+**Esse é o meu portfólio, nele você encontrará:**
+
+* Informações acadêmicas;
+* Projetos;
+* Habilidades;
+* Contatos;
+* E mais.
