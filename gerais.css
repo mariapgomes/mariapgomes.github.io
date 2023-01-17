@@ -1,0 +1,14 @@
+body {
+ margin: 0 80px;
+ max-width: 1400px;
+ background-color: #F2F2F2;
+}
+
+.lista li a {
+ text-decoration: none;
+}
+.lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
