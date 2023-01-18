@@ -1,25 +1,25 @@
-.lista {
- display: flex;
- gap: 60px;
- font-size: 1.25rem;
- justify-items: center;
-}
-
-.lista li a {
- color: #141214
-}
-
-.header {
+.navegacao {
  display: grid;
  grid-template-columns: repeat(3, 1fr);
+ align-items: center;
  margin: 20px 0;
 }
 
+.lista {
+ display: flex;
+ gap: 40px;
+ justify-self: center;
+}
+
+.lista li{
+ font-size: 1.25rem;
+ padding: .625rem 0;
+}
+
 #botao-contato {
+ justify-self: end;
  padding: .625rem 1.25rem;
  border: solid 2px #CB1C8D;
  color: #CB1C8D;
  border-radius: 5px;
- right: 0;
- grid-column: 3 / 3;
 }
