@@ -1,7 +1,38 @@
+@font-face {
+  font-family: "roboto regular";
+  src: local(roboto), url(./fontes/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "roboto medium";
+  src: local(roboto), url(./fontes/Roboto-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "fira sans-regular";
+  src: local("fira sans"), url(./fontes/FiraSans-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "fira sans-medium";
+  src: local("fira sans"), url(./fontes/FiraSans-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "fira sans-semibold";
+  src: local("fira sans"), url(./fontes/FiraSans-SemiBold.ttf);
+  font-weight: 600;
+}
+
 body {
  margin: 0 auto;
  max-width: 1400px;
  background-color: #F2F2F2;
+ font-family: "roboto regular";
 }
 
 a {
