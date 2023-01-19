@@ -9,12 +9,15 @@
  display: flex;
  flex-wrap: wrap;
  gap: 40px;
- justify-self: center;
+ justify-content: center;
 }
 
 .lista li{
  padding: .625rem 0;
- /* background-color: aqua; */
+}
+
+.lista li a:hover {
+ color: #CB1C8D;
 }
 
 #botao-contato {
@@ -25,24 +28,6 @@
  border-radius: 5px;
  font-family: "roboto medium", Arial, Helvetica, sans-serif;
 }
-
-.lista li a {
- position: relative;
-}
-
-/* .lista li a:hover {
- color: #CB1C8D;
-} */
-/* .lista li a::after {
- content: '';
- display: block;
- width: 30px;
- height: 3px;
- position: absolute;
- border-radius: 4px;
- background-color: #CB1C8D;
- right: 20px;
-} */
 
 @media (max-width: 1300px) {
  .lista {
@@ -88,10 +73,6 @@
 
    .navegacao a {
     font-size: 1rem;
-   }
-
-   .lista {
-    justify-content: center;
    }
 
    #botao-contato {
