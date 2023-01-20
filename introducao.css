@@ -4,15 +4,19 @@
 }
 
 #foto-perfil {
-  max-width: 100%;
-  display: block;
   justify-self: end;
-  border: 5px solid #CB1C8D;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 4;
+  height: 530px;
  }
+
+ /* #foto-perfil img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+ } */
 
 h1 {
  font-family: "fira sans-semibold", Arial, Helvetica, sans-serif;
@@ -24,9 +28,9 @@ span {
 }
 
 .introducao h2 {
-  font-family: "fira sans-regular", Arial, Helvetica, sans-serif;
-  font-size: 3rem;
-  margin-top: 0;
+ font-family: "fira sans-regular", Arial, Helvetica, sans-serif;
+ font-size: 3rem;
+ margin-top: 0;
 }
 
 .introducao ul {
@@ -37,12 +41,25 @@ span {
 .introducao ul li {
   padding: .625rem 0;
   font-family: "roboto medium", Arial, Helvetica, sans-serif;
-  border-radius: 5px;
-  /* border: 2px solid #CB1C8D; */
+  font-weight: 600;
+  letter-spacing: .0313rem;
  }
 
-
-/* .botao-contato-intro {
- 
+.botao-contato-intro {
  background-color: #CB1C8D;
-} */
+ color: #FFE5F6;
+}
+
+.botao-contato-intro:hover {
+  background-color: transparent;
+  color: #CB1C8D;
+  border-color: #CB1C8D;
+ }
+
+#botao-cv {
+ color: #CB1C8D;
+}
+
+#botao-cv:hover {
+ border-color: #CB1C8D;
+}

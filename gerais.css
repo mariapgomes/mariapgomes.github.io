@@ -46,6 +46,8 @@ a {
  padding: .625rem 1.25rem;
  color: #141214;
  font-size: 1.25rem;
+ border: solid 2px transparent;
+ border-radius: 5px;
 }
 
 ul {
