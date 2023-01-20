@@ -1,0 +1,48 @@
+.introducao {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+#foto-perfil {
+  max-width: 100%;
+  display: block;
+  justify-self: end;
+  border: 5px solid #CB1C8D;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+ }
+
+h1 {
+ font-family: "fira sans-semibold", Arial, Helvetica, sans-serif;
+ font-size: 6rem;
+}
+
+span {
+ color: #CB1C8D;
+}
+
+.introducao h2 {
+  font-family: "fira sans-regular", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.introducao ul {
+ display: flex;
+ gap: 20px;
+}
+
+.introducao ul li {
+  padding: .625rem 0;
+  font-family: "roboto medium", Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  /* border: 2px solid #CB1C8D; */
+ }
+
+
+/* .botao-contato-intro {
+ 
+ background-color: #CB1C8D;
+} */

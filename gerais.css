@@ -53,3 +53,12 @@ ul {
  margin: 0;
  padding: 0;
 }
+
+h1 {
+ font-weight: normal;
+ margin-bottom: 0;
+}
+
+h2 {
+  font-weight: normal;
+ }
