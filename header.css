@@ -36,27 +36,27 @@
  color: #FFE5F6;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1350px) {
+  body {
+   margin: 0 40px;
+  }
+  
+  .navegacao {
+   grid-template-columns: 1fr 400px 1fr;
+  }
+
  .lista {
   gap: 20px;
  }
 }
 
-@media (max-width: 1175px) {
- .navegacao {
-  grid-template-columns: 1fr 335px 1fr;
- }
-}
-
-@media (max-width: 900px) {
+ @media (max-width: 750px) {
   body {
-   margin: 0 25px;
+    margin: 0 25px;
   }
-}
 
- @media (max-width: 700px) {
   .navegacao {
-   grid-template-columns: 1fr minmax(115px, 125px);
+   grid-template-columns: 1fr minmax(120px, 128px);
    margin: 0px;
   }
 
