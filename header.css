@@ -38,7 +38,7 @@
 
 @media (max-width: 1350px) {
   body {
-   margin: 0 40px;
+   margin: 0 70px;
   }
   
   .navegacao {
@@ -50,7 +50,7 @@
  }
 }
 
- @media (max-width: 750px) {
+ @media (max-width: 775px) {
   body {
     margin: 0 25px;
   }
@@ -59,6 +59,10 @@
    grid-template-columns: 1fr minmax(120px, 128px);
    margin: 0px;
   }
+
+  .navegacao a {
+    font-size: 1rem;
+   }
 
   #logo {
    margin: 30px;
