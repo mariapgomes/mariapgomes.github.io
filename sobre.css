@@ -1,0 +1,34 @@
+
+#link-sobre div h2{
+ text-align: center;
+}
+
+.sobre {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 2.1875rem;
+ margin: 0 100px;
+}
+
+.sobre div {
+  max-width: 500px;
+  align-self: center;
+  /* justify-self: center; */
+ }
+
+ #foto-sobre {
+  max-width: 500px;
+  justify-self: end;
+ }
+
+#foto-sobre img {
+ max-width: 100%;
+ height: 100%;
+ display: block;
+ object-fit: cover;
+}
+
+.paragrafo-sobre {
+ font-size: 1.375rem;
+ height: 480px;
+}
