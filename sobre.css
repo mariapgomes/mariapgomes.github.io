@@ -31,19 +31,19 @@
 }
 
 .sobre h2::after{
-  content: '';
-  width: 40px;
-  height: 3px;
-  background-color: #CB1C8D;
-  position: absolute;
-  bottom: 0;
-  right: 0;
- }
+ content: '';
+ width: 40px;
+ height: 3px;
+ background-color: #CB1C8D;
+ position: absolute;
+ bottom: 0;
+ right: 0;
+}
 
- #foto-sobre {
-  max-width: 500px;
-  justify-self: end;
- }
+#foto-sobre {
+ max-width: 500px;
+ justify-self: end;
+}
 
 #foto-sobre img {
  max-width: 100%;
