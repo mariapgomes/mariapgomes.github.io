@@ -1,5 +1,6 @@
 .navegacao {
  max-width: 1400px;
+ padding: 0 80px;
  display: grid;
  grid-template-columns: repeat(3, 1fr);
  align-items: center;
@@ -38,10 +39,6 @@
 }
 
 @media (max-width: 1350px) {
-  body {
-   padding: 0 70px;
-  }
-  
   .navegacao {
    grid-template-columns: 1fr 400px 1fr;
   }
@@ -52,11 +49,8 @@
 }
 
  @media (max-width: 775px) {
-  body {
-    padding: 0 25px;
-  }
-
   .navegacao {
+   padding: 0 10px;
    grid-template-columns: 1fr minmax(120px, 128px);
    margin: 0px;
   }

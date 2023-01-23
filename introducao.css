@@ -1,5 +1,6 @@
 .introducao {
  max-width: 1400px;
+ padding: 0 80px;
  display: grid;
  grid-template-columns: 1fr 1fr;
  margin: 0 auto;
@@ -135,10 +136,8 @@ span {
  }
 
  @media (max-width: 690px) {
-  body {
-    padding: 0 10px;
-   }
   .introducao {
+   padding: 0 10px;
    grid-template-columns: 290px 1fr;
   }
 
