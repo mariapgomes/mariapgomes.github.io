@@ -1,8 +1,9 @@
 .navegacao {
+ max-width: 1400px;
  display: grid;
  grid-template-columns: repeat(3, 1fr);
  align-items: center;
- margin: 20px 0;
+ margin: 20px auto;
 }
 
 .lista {
@@ -38,7 +39,7 @@
 
 @media (max-width: 1350px) {
   body {
-   margin: 0 70px;
+   padding: 0 70px;
   }
   
   .navegacao {
@@ -52,7 +53,7 @@
 
  @media (max-width: 775px) {
   body {
-    margin: 0 25px;
+    padding: 0 25px;
   }
 
   .navegacao {

@@ -1,19 +1,43 @@
 
-#link-sobre div h2{
- text-align: center;
+#link-sobre {
+ background-color: #F6EDF3;
+}
+
+#link-sobre div {
+ max-width: 1400px;
+ margin: 0 auto;
 }
 
 .sobre {
- display: grid;
- grid-template-columns: 1fr 1fr;
- gap: 2.1875rem;
- margin: 0 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.1875rem;
+  padding: 50px 100px;
+ }
+
+ .sobre div {
+   max-width: 500px;
+   align-self: center;
+  }
+
+.sobre h2 {
+ font-family: "fira sans-medium", Arial, Helvetica, sans-serif;
+ font-size: 2.5rem;
+ display: inline-block;
+ position: relative;
+ grid-column: span 2;
+ justify-self: center;
+ margin: 0;
 }
 
-.sobre div {
-  max-width: 500px;
-  align-self: center;
-  /* justify-self: center; */
+.sobre h2::after{
+  content: '';
+  width: 40px;
+  height: 3px;
+  background-color: #CB1C8D;
+  position: absolute;
+  bottom: 0;
+  right: 0;
  }
 
  #foto-sobre {
@@ -29,6 +53,8 @@
 }
 
 .paragrafo-sobre {
- font-size: 1.375rem;
- height: 480px;
+ font-size: 1.25rem;
+ line-height: 1.625rem;
+ /* height: 480px; */
+ /* margin: 25px; */
 }

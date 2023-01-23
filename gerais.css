@@ -29,8 +29,9 @@
 }
 
 body {
- max-width: 1400px;
- margin: 0 auto;
+ /* max-width: 1400px; */
+ margin: 0;
+ min-width: 15px;
  background-color: #F2F2F2;
  font-family: "roboto regular", Arial, Helvetica, sans-serif;
  color: #141214;
@@ -38,7 +39,7 @@ body {
 
 @media (max-width: 1550px) {
  body {
-  margin: 0 80px;
+  /* padding: 0 80px; */
  }
 }
 
@@ -65,3 +66,8 @@ h1 {
 h2 {
   font-weight: normal;
  }
+
+strong {
+ font-family: "roboto medium", Arial, Helvetica, sans-serif;
+ font-weight: 600;
+}

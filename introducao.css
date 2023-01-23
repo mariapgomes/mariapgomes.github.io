@@ -1,6 +1,8 @@
 .introducao {
+ max-width: 1400px;
  display: grid;
  grid-template-columns: 1fr 1fr;
+ margin: 0 auto;
 }
 
 #foto-perfil {
@@ -133,6 +135,9 @@ span {
  }
 
  @media (max-width: 690px) {
+  body {
+    padding: 0 10px;
+   }
   .introducao {
    grid-template-columns: 290px 1fr;
   }
@@ -151,10 +156,8 @@ span {
   }
  }
 
- @media (max-width: 525px) {
-  body {
-   margin: 0 10px;
-  }
+ @media (max-width: 495px) {
+  
   .introducao {
     grid-template-columns: 1fr;
    }
