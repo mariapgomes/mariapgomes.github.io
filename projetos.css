@@ -5,6 +5,7 @@
  max-width: 1200px;
  margin: 0 auto;
  padding: 50px 0;
+ position: relative;
 }
 
 .projetos h2 {
@@ -29,5 +30,64 @@
 
 .cards {
  justify-self: center;
+ display: grid;
+ grid-template-columns: 18.125rem;
+ border-radius: 12px;
+ box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.cards div:first-child {
+ height: 15.9375rem;
+}
+
+.cards div:last-child {
+  height: 200px;
+  border-radius: 0 0 12px 12px;
+ }
+
+.cards div img {
+ max-width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+.descricao-card {
+ background-color: #F6EDF3;
+ /* background-color: lightcoral; */
+}
+
+.descricao-card h3 {
+ font-family: "roboto medium", Arial, Helvetica, sans-serif;
+ font-weight: 600;
+ margin: .9375rem;
+ letter-spacing: 0.5px
+}
+
+.descricao-card ul li {
+  display: inline-block;
+  background-color: #D1ECCE;
+  color: #243F21;
+  padding: .5rem .9375rem;
+  border-radius: 5px;
+  
+ }
+
+ .descricao-card ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .9375rem;
+  margin: .9375rem;
+ }
+
+ #enfeite-projetos1 {
+  position: absolute;
+  right: 10px;
+  top: 95px;
+ }
+
+ #enfeite-projetos2 {
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+  transform: rotate(180deg);
+ }
