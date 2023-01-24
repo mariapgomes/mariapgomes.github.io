@@ -44,8 +44,22 @@
 }
 
 .soft {
+ grid-column: span 3;
+ justify-self: center;
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
+
+.soft h3, ul li{
   display: inline-block;
-  grid-column: span 3;
-  justify-self: center;
+}
+
+.soft h3 {
   margin: 0;
+}
+
+.itens-soft {
+ display: flex;
+ gap: 20px;
 }
