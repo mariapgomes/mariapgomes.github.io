@@ -1,6 +1,6 @@
-/* .secao-skills {
+.secao-skills {
  display: grid;
- grid-template-columns:  repeat(1fr);
+ grid-template-columns: repeat(3, 400px);
  gap: 20px;
  max-width: 1200px;
  margin: 0 auto;
@@ -12,41 +12,9 @@
 
 .itens-lista {
  display: block;
- /* grid-template-columns: 1fr; */
- /* padding: 20px;
+ padding: 20px;
  margin-bottom: 40px;
  position: relative;
 }
 
-.itens-lista h4{
- font-family: "roboto medium", Arial, Helvetica, sans-serif;
- font-weight: 600;
- margin: 0 0 5px 0;
-}
 
-.itens-lista p {
- color: #2A7C20;
- margin: 0;
- line-height: 30px;
-}
-
-.itens-lista span {
- color: #5B5B5B;
-}
-
-.itens-lista::before {
-  content: '';
-  width: 16px;
-  height: 126px;
-  background-image: url(./imagens/icone-lista.svg);
-  position: absolute;
-  left: 0px;
-  bottom: 5px;
-}
-
-.soft {
-  display: inline-block;
-  grid-column: span 3;
-  justify-self: center;
-  margin: 0;
-} */ */
