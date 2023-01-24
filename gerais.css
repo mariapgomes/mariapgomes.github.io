@@ -71,3 +71,24 @@ strong {
  font-family: "roboto medium", Arial, Helvetica, sans-serif;
  font-weight: 600;
 }
+
+.titulo-secao {
+ font-family: "fira sans-medium", Arial, Helvetica, sans-serif;
+ font-size: 2.5rem;
+ display: inline-block;
+ position: relative;
+ grid-column: span 3;
+ justify-self: center;
+ margin: 0;
+}
+
+.titulo-secao::after {
+ content: '';
+ width: 40px;
+ height: 4px;
+ background-color: #CB1C8D;
+ border-radius: 3px;
+ position: absolute;
+ bottom: 0;
+ right: 0;
+}
