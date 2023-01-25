@@ -33,7 +33,7 @@
 
 .descricao-card {
  background-color: #F6EDF3;
- /* background-color: lightcoral; */
+ font-size: 1.125rem;
 }
 
 .descricao-card h3 {

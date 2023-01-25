@@ -1,27 +1,31 @@
 
-#link-sobre {
+.secao-sobre {
  background-color: #F6EDF3;
 }
 
-#link-sobre div {
+.sobre h2 {
+  grid-column: span 2;
+}
+
+.secao-sobre div {
  max-width: 1400px;
  margin: 0 auto;
 }
 
 .sobre {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2.1875rem;
-  padding: 50px 100px;
- }
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 2.1875rem;
+ padding: 50px 100px;
+}
 
- .sobre div {
-   max-width: 500px;
-   align-self: center;
-  }
+.sobre div {
+ /* max-width: 500px; */
+ align-self: center;
+}
 
 #foto-sobre {
- max-width: 500px;
+ /* max-width: 500px; */
  justify-self: end;
 }
 
