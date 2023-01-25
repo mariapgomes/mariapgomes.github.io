@@ -1,8 +1,17 @@
-/* .conteiner-contatos {
+.container-contatos {
  display: grid;
  grid-template-columns: 1fr;
  gap: 20px;
  max-width: 1400px;
  margin: 0 auto;
  padding: 50px 0;
-} */
+}
+
+.container-contatos h2 {
+  grid-column: span 1;
+}
+
+.lista-contatos {
+ justify-self: center;
+}
+
