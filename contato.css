@@ -5,6 +5,18 @@
  max-width: 1400px;
  margin: 0 auto;
  padding: 50px 0;
+ position: relative;
+}
+
+.container-contatos::before {
+  content: '';
+  width: 104px;
+  height: 104px;
+  background-image: url(./imagens/enfeite-2.svg);
+  position: absolute;
+  left: -10px;
+  bottom: 0px;
+  transform: rotate(20deg);
 }
 
 .container-contatos h2 {
@@ -15,3 +27,9 @@
  justify-self: center;
 }
 
+.lista-contatos li {
+ padding: 55px;
+ background-image: radial-gradient(#FFE5F6 15%, #E351B0 70%);
+ border-radius: 100px;
+ margin: 50px;
+}
