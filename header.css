@@ -5,6 +5,9 @@
  grid-template-columns: repeat(3, 1fr);
  align-items: center;
  margin: 20px auto;
+ /* position: fixed;
+ background-color: #F2F2F2;
+ z-index: 1; */
 }
 
 .lista {
