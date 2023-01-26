@@ -17,9 +17,14 @@
 }
 
 .cards:hover {
-  scale: 1.1;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
-  transition: 500ms;
+ scale: 1.1;
+ box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+ transition: 500ms;
+}
+
+.cards div a {
+ padding: 0;
+ border: 0;
 }
 
 .cards div:first-child {
@@ -27,14 +32,15 @@
 }
 
 .cards div:last-child {
-  height: 200px;
-  border-radius: 0 0 12px 12px;
- }
+ height: 200px;
+ border-radius: 0 0 12px 12px;
+}
 
 .cards div img {
  max-width: 100%;
  height: 100%;
  object-fit: cover;
+ border-radius: 12px 12px 0 0;
 }
 
 .descricao-card {
@@ -50,30 +56,29 @@
 }
 
 .descricao-card ul li {
-  display: inline-block;
-  background-color: #D1ECCE;
-  color: #243F21;
-  padding: .5rem .9375rem;
-  border-radius: 5px;
-  
- }
+ display: inline-block;
+ background-color: #D1ECCE;
+ color: #243F21;
+ padding: .5rem .9375rem;
+ border-radius: 5px;
+}
 
- .descricao-card ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .9375rem;
-  margin: .9375rem;
- }
+.descricao-card ul {
+ display: flex;
+ flex-wrap: wrap;
+ gap: .9375rem;
+ margin: .9375rem;
+}
 
- #enfeite-projetos1 {
-  position: absolute;
-  right: 10px;
-  top: 95px;
- }
+#enfeite-projetos1 {
+ position: absolute;
+ right: 10px;
+ top: 95px;
+}
 
- #enfeite-projetos2 {
-  position: absolute;
-  bottom: 15px;
-  left: 0px;
-  transform: rotate(180deg);
- }
+#enfeite-projetos2 {
+ position: absolute;
+ bottom: 15px;
+ left: 0px;
+ transform: rotate(180deg);
+}
