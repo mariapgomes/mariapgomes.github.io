@@ -1,0 +1,96 @@
+.navegacao {
+ max-width: 1400px;
+ padding: 0 80px;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ align-items: center;
+ margin: 20px auto;
+}
+
+header {
+ position: fixed;
+ background-color: #F2F2F2;
+ z-index: 1;
+ top: 0;
+ left: 0;
+ right: 0;
+}
+
+.lista {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 40px;
+ justify-content: center;
+}
+
+.lista li{
+ padding: .625rem 0;
+}
+
+.lista li a:hover {
+ color: #CB1C8D;
+}
+
+#botao-contato {
+ justify-self: end;
+ padding: .625rem 1.5625rem;
+ border: solid 2px #CB1C8D;
+ color: #CB1C8D;
+ border-radius: 5px;
+ font-family: "roboto medium", Arial, Helvetica, sans-serif;
+ font-weight: 600;
+ letter-spacing: .0313rem;
+}
+
+#botao-contato:hover {
+ background-color: #CB1C8D;
+ color: #FFE5F6;
+}
+
+@media (max-width: 1350px) {
+  .navegacao {
+   grid-template-columns: 1fr 400px 1fr;
+  }
+
+ .lista {
+  gap: 20px;
+ }
+}
+
+ @media (max-width: 775px) {
+  .navegacao {
+   padding: 0 10px;
+   grid-template-columns: 1fr minmax(120px, 128px);
+   margin: 0px;
+  }
+
+  .navegacao a {
+    font-size: 1rem;
+   }
+
+  #logo {
+   margin: 30px;
+   grid-column: span 2;
+   justify-self: center;
+  }
+ }
+
+ @media (max-width: 550px) {
+  #logo {
+    grid-column: 1;
+    margin-bottom: 10px;
+   }
+
+  .navegacao {
+    grid-template-columns: 1fr;
+    gap: 20px;
+   }
+
+   .navegacao a {
+    font-size: 1rem;
+   }
+
+   #botao-contato {
+    justify-self: center;
+   }
+ }

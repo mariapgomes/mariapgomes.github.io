@@ -1,0 +1,100 @@
+@font-face {
+ font-family: "roboto regular";
+ src: local(roboto), url(./fontes/Roboto-Regular.ttf);
+ font-weight: 400;
+}
+
+@font-face {
+ font-family: "roboto medium";
+ src: local(roboto), url(./fontes/Roboto-Medium.ttf);
+ font-weight: 500;
+}
+
+@font-face {
+ font-family: "fira sans-regular";
+ src: local("fira sans"), url(./fontes/FiraSans-Regular.ttf);
+ font-weight: 400;
+}
+
+@font-face {
+ font-family: "fira sans-medium";
+ src: local("fira sans"), url(./fontes/FiraSans-Medium.ttf);
+ font-weight: 500;
+}
+
+@font-face {
+ font-family: "fira sans-semibold";
+ src: local("fira sans"), url(./fontes/FiraSans-SemiBold.ttf);
+ font-weight: 600;
+}
+
+html {
+ scroll-behavior: smooth;
+}
+
+body {
+ /* max-width: 1400px; */
+ margin: 0;
+ min-width: 15px;
+ background-color: #F2F2F2;
+ font-family: "roboto regular", Arial, Helvetica, sans-serif;
+ font-size: 1.25rem;
+ color: #141214;
+ padding-top: 88px;
+}
+
+@media (max-width: 1550px) {
+ body {
+  /* padding: 0 80px; */
+ }
+}
+
+a {
+ text-decoration: none;
+ padding: .625rem 1.25rem;
+ color: #141214;
+ /* font-size: 1.25rem; */
+ border: solid 2px transparent;
+ border-radius: 5px;
+}
+
+ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+h1 {
+ font-weight: normal;
+ margin-bottom: 0;
+}
+
+h2, h3, h4 {
+  font-weight: normal;
+ }
+
+strong {
+ font-family: "roboto medium", Arial, Helvetica, sans-serif;
+ font-weight: 600;
+}
+
+.titulo-secao {
+ font-family: "fira sans-medium", Arial, Helvetica, sans-serif;
+ font-size: 2.5rem;
+ display: inline-block;
+ position: relative;
+ grid-column: span 3;
+ justify-self: center;
+ margin: 0;
+}
+
+.titulo-secao::after {
+ content: '';
+ width: 40px;
+ height: 4px;
+ background-color: #CB1C8D;
+ border-radius: 3px;
+ position: absolute;
+ bottom: 0;
+ right: 0;
+}
