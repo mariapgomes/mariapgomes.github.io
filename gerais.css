@@ -28,6 +28,10 @@
  font-weight: 600;
 }
 
+html {
+ scroll-behavior: smooth;
+}
+
 body {
  /* max-width: 1400px; */
  margin: 0;
@@ -36,6 +40,7 @@ body {
  font-family: "roboto regular", Arial, Helvetica, sans-serif;
  font-size: 1.25rem;
  color: #141214;
+ padding-top: 88px;
 }
 
 @media (max-width: 1550px) {
