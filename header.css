@@ -17,6 +17,10 @@ header {
  right: 0;
 }
 
+.ancora-logo{
+ padding: 0;
+}
+
 .lista {
  display: flex;
  flex-wrap: wrap;
