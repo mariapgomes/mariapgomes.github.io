@@ -48,7 +48,15 @@ header {
  color: #FFE5F6;
 }
 
+@media (max-width: 750px) {
+  .navegacao {
+   padding: 0 10px
+  }
 
+ .lista {
+  gap: 20px;
+ }
+}
 
  @media (max-width: 775px) {
   /* .navegacao {
