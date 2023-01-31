@@ -2,26 +2,26 @@
  max-width: 1400px;
  padding: 0 20px;
  display: grid;
- grid-template-columns: 1fr 1fr;
+ grid-template-columns: 664px 1fr;
  margin: 0 auto;
 }
 
-#foto-perfil {
-  justify-self: end;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 4;
-  height: 530px;
- }
+.foto-perfil {
+ justify-self: end;
+ grid-column-start: 2;
+ grid-column-end: 3;
+ grid-row-start: 1;
+ grid-row-end: 4;
+ height: 530px;
+}
 
- #foto-perfil img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  object-position: top right;
- }
+ .foto-perfil img {
+ width: 100%;
+ height: 100%;
+ display: block;
+ object-fit: cover;
+ object-position: top right;
+}
 
 h1 {
  font-family: "fira sans-semibold", Arial, Helvetica, sans-serif;
@@ -42,14 +42,15 @@ span {
  display: flex;
  flex-wrap: wrap;
  gap: 1.25rem;
+ justify-content: center;
 }
 
 .introducao ul li {
-  padding: .625rem 0;
-  font-family: "roboto medium", Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  letter-spacing: .0313rem;
- }
+ padding: .625rem 0;
+ font-family: "roboto medium", Arial, Helvetica, sans-serif;
+ font-weight: 600;
+ letter-spacing: .0313rem;
+}
 
 .botao-contato-intro {
  background-color: #CB1C8D;
@@ -57,10 +58,10 @@ span {
 }
 
 .botao-contato-intro:hover {
-  background-color: transparent;
-  color: #CB1C8D;
-  border-color: #CB1C8D;
- }
+ background-color: transparent;
+ color: #CB1C8D;
+ border-color: #CB1C8D;
+}
 
 #botao-cv {
  color: #CB1C8D;
@@ -70,110 +71,81 @@ span {
  border-color: #CB1C8D;
 }
 
-@media (max-width: 1490px) {
+@media (max-width: 1120px) {
+ .introducao {
+  grid-template-columns: 490px 1fr;
+ }
+ 
  h1 {
-  font-size: 5rem;
-  align-self: end;
+  font-size: 4.5rem;
  }
-
- .introducao h2 {
-  font-size: 2.5rem;
+  
+.introducao h2 {
+  font-size: 2.25rem;
  }
-
- #foto-perfil {
-  height: 450px;
+  
+ .foto-perfil {
+  height: 405px;
+ }
+ 
+ .introducao ul li a {
+  font-size: 1rem;
  }
 }
 
-@media (max-width: 1250px) {
-  h1 {
-   font-size: 4.5rem;
-  }
- 
-  .introducao h2 {
-   font-size: 2.25rem;
-  }
- 
-  #foto-perfil {
-   height: 405px;
-  }
-
-  .introducao ul li a {
-    font-size: 1rem;
-   }
+@media (max-width: 850px) {
+ .introducao {
+  grid-template-columns: 330px 1fr;
  }
 
- @media (max-width: 1134px) {
-  h1 {
-   font-size: 3.25rem;
-  }
+ h1 {
+  font-size: 3.25rem;
+ }
  
-  .introducao h2 {
-   font-size: 1.5rem;
-  }
+ .introducao h2 {
+  font-size: 1.5rem;
+ }
  
-  #foto-perfil {
-   height: 295px;
-  }
-
-  .introducao ul li a {
-   font-size: .875rem;
-  }
+ .foto-perfil {
+  height: 295px;
  }
 
- @media (max-width: 820px) {
-  h1 {
-   font-size: 2.75rem;
-  }
- 
-  .introducao h2 {
-   font-size: 1.25rem;
-  }
- 
-  #foto-perfil {
-   height: 270px;
-  }
+ .introducao ul li a {
+  font-size: .875rem;
  }
+}
 
- @media (max-width: 690px) {
-  .introducao {
-   padding: 0 10px;
-   grid-template-columns: 290px 1fr;
-  }
-
-  h1 {
-    font-size: 2.25rem;
-  }
- 
-  .introducao h2 {
-   font-size: 1rem;
-   margin-bottom: 1.25rem;
-  }
- 
-  #foto-perfil {
-    height: 225px;
-  }
- }
-
- @media (max-width: 495px) {
+@media (max-width: 610px) {
   
-  .introducao {
-    grid-template-columns: 1fr;
-   }
+ .introducao {
+  grid-template-columns: 1fr;
+  justify-self: center;
+ text-align: center;
+ }
     
-  h1 {
-   margin-bottom: .3125rem;
-  }
+ h1 {
+  font-size: 30px;
+  margin-bottom: .3125rem;
+ }
 
-  .introducao h2 {
-   font-size: 1rem;
-  }
+ .introducao h2 {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+ }
 
-  #foto-perfil {
-    display: none;
-   }
+.foto-perfil {
+  grid-column: 1;
+  justify-self: center;
+  height: 200px;
+  width: 200px;
+ }
+
+ .foto-perfil img {
+  border: 2px solid #CB1C8D;
+  border-radius: 100%;
+ }
 
  .introducao ul {
   justify-self: center;
  }
- }
+}
