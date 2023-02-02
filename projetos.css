@@ -4,7 +4,7 @@
  gap: 2.1875rem;
  max-width: 1200px;
  margin: 0 auto;
- padding: 100px 0;
+ padding: 100px 20px;
  position: relative;
 }
 
@@ -14,8 +14,8 @@
  height: 36px;
  background-image: url(./imagens/enfeite-1.svg);
  position: absolute;
- right: 10px;
- top: 95px;
+ right: 20px;
+ top: 135px;
 }
 
 .projetos::before {
@@ -24,8 +24,8 @@
  height: 36px;
  background-image: url(./imagens/enfeite-1.svg);
  position: absolute;
- bottom: 10px;
- left: 10px;
+ bottom: 50px;
+ left: 20px;
  transform: rotate(180deg);
 }
 
@@ -90,3 +90,40 @@
  gap: .9375rem;
  margin: .9375rem;
 }
+
+@media (max-width: 1000px) {
+ .cards {
+  grid-template-columns: 217px;
+ }
+  
+  .cards div:first-child {
+    height: 191px;
+   }
+   
+   .cards div:last-child {
+    height: 150px;
+   }
+
+   .descricao-card h3 {
+    font-size: 1rem;
+   }
+   
+   .descricao-card ul li {
+    font-size: .8125rem;
+    padding: .3125rem .625rem;
+   }
+
+   .projetos::after {
+    right: 0px;
+    top: 135px;
+    transform: rotate(-20deg);
+   }
+   
+   .projetos::before {
+    bottom: 50px;
+    left: 0px;
+    transform: rotate(160deg);
+   }
+
+}
+
