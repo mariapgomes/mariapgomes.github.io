@@ -42,7 +42,6 @@ span {
  display: flex;
  flex-wrap: wrap;
  gap: 1.25rem;
- justify-content: center;
 }
 
 .introducao ul li {
@@ -147,5 +146,6 @@ span {
 
  .introducao ul {
   justify-self: center;
+  justify-content: center;
  }
 }
