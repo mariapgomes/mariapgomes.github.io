@@ -43,12 +43,6 @@ body {
  padding-top: 88px;
 }
 
-@media (max-width: 1550px) {
- body {
-  /* padding: 0 80px; */
- }
-}
-
 a {
  text-decoration: none;
  padding: .625rem 1.25rem;
@@ -98,3 +92,26 @@ strong {
  bottom: 0;
  right: 0;
 }
+
+
+ @media (max-width: 810px) {
+  .titulo-secao {
+    font-size: 2.1875rem;
+  }
+
+  .titulo-secao::after {
+    width: 30px;
+    height: 3px;
+  }
+}
+
+@media (max-width: 635px) {
+  .titulo-secao {
+    font-size: 1.6875rem;
+  }
+
+  .titulo-secao::after {
+    width: 25px;
+  }
+}
+ 

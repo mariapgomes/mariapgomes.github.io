@@ -127,8 +127,6 @@
 
 }
 
-
-
 @media (max-width: 790px) {
   .projetos {
    grid-template-columns: 1fr;

@@ -79,10 +79,6 @@
   .sobre {
    grid-template-columns: 580px;
   }
-
-  .sobre h2 {
-    font-size: 2.1875rem;
-  }
  
   #foto-sobre {
    width: 250px;
@@ -98,10 +94,6 @@
  @media (max-width: 635px) {
   .sobre {
    grid-template-columns: 1fr;
-  }
-
-  .sobre h2 {
-   font-size: 1.6875rem;
   }
 
   #foto-sobre {
