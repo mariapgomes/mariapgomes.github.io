@@ -64,6 +64,14 @@
  }
 }
 
-@media (max-width: 1030px) {
- 
+@media (max-width: 1040px) {
+ .sobre {
+  grid-template-columns: 750px;
+ }
+
+ #foto-sobre {
+  width: 335px;
+  padding: 0 25px 0px 0;
+ }
 }
+
