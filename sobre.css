@@ -90,7 +90,21 @@
   }
 
   .paragrafo-sobre {
-    font-size: 1rem;
-    line-height: 1.375rem;
-   }
+   font-size: 1rem;
+   line-height: 1.375rem;
+  }
+ }
+
+ @media (max-width: 635px) {
+  .sobre {
+   grid-template-columns: 1fr;
+  }
+
+  .sobre h2 {
+   font-size: 1.6875rem;
+  }
+
+  #foto-sobre {
+   display: none;
+  }
  }
