@@ -4,7 +4,7 @@
  gap: 20px;
  max-width: 1400px;
  margin: 0 auto;
- padding: 50px 0;
+ padding: 50px 20px;
  position: relative;
 }
 
@@ -52,9 +52,19 @@
  padding: 55px;
 }
 
-/* Efeitos ao passar e clicar com o mouse */
-
 .lista-contatos li:hover {
  scale: 1.2;
  transition: 500ms;
+}
+
+@media (max-width: 1130px) {
+ .lista-contatos li a img{
+  width: 45px;
+  height: 45px;
+  padding: 38px;
+ }
+
+ .lista-contatos li {
+  margin: 35px;
+ }
 }
