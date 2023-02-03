@@ -9,22 +9,22 @@
 }
 
 .container-contatos::before {
-  content: '';
-  width: 104px;
-  height: 104px;
-  background-image: url(./imagens/enfeite-2.svg);
-  position: absolute;
-  left: -10px;
-  bottom: 0px;
-  transform: rotate(20deg);
+ content: '';
+ width: 104px;
+ height: 104px;
+ background-image: url(./imagens/enfeite-2.svg);
+ position: absolute;
+ left: -10px;
+ bottom: 0px;
+ transform: rotate(20deg);
 }
 
 .container-contatos::after {
-  content: '';
-  width: 40px;
-  height: 36px;
-  background-image: url(./imagens/enfeite-1.svg);
-  position: absolute;
+ content: '';
+ width: 40px;
+ height: 36px;
+ background-image: url(./imagens/enfeite-1.svg);
+ position: absolute;
  right: 0;
  top: 100px;
 }

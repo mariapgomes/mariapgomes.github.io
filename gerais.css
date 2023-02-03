@@ -33,7 +33,6 @@ html {
 }
 
 body {
- /* max-width: 1400px; */
  margin: 0;
  min-width: 15px;
  background-color: #F2F2F2;
@@ -47,7 +46,7 @@ a {
  text-decoration: none;
  padding: .625rem 1.25rem;
  color: #141214;
- /* font-size: 1.25rem; */
+ letter-spacing: .0313rem;
  border: solid 2px transparent;
  border-radius: 5px;
 }
@@ -64,8 +63,8 @@ h1 {
 }
 
 h2, h3, h4 {
-  font-weight: normal;
- }
+ font-weight: normal;
+}
 
 strong {
  font-family: "roboto medium", Arial, Helvetica, sans-serif;
@@ -95,23 +94,23 @@ strong {
 
 
  @media (max-width: 810px) {
-  .titulo-secao {
-    font-size: 2.1875rem;
-  }
+ .titulo-secao {
+  font-size: 2.1875rem;
+ }
 
-  .titulo-secao::after {
-    width: 30px;
-    height: 3px;
-  }
+ .titulo-secao::after {
+  width: 30px;
+  height: 3px;
+ }
 }
 
 @media (max-width: 635px) {
-  .titulo-secao {
-    font-size: 1.6875rem;
-  }
+ .titulo-secao {
+  font-size: 1.6875rem;
+ }
 
-  .titulo-secao::after {
-    width: 25px;
-  }
+ .titulo-secao::after {
+  width: 25px;
+ }
 }
  

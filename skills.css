@@ -14,15 +14,15 @@
 
 .itens-lista {
  display: block;
- padding: 20px;
- margin-bottom: 40px;
+ padding: 1.25rem;
+ margin-bottom: 2.5rem;
 }
 
 .itens-lista h4{
  font-family: "roboto medium", Arial, Helvetica, sans-serif;
  font-weight: 600;
  margin: 0 0 5px 0;
- letter-spacing: 0.5px;
+ letter-spacing: .0313rem;
  position: relative;
 }
 
@@ -39,7 +39,7 @@
 .itens-lista p {
  color: #2A7C20;
  margin: 0;
- line-height: 30px;
+ line-height: 1.875rem;
 }
 
 .itens-lista span {
@@ -72,7 +72,7 @@
 }
 
 .itens-soft li {
- padding: 0 30px;
+ padding: 0 1.875rem;
  position: relative;
 }
 
@@ -132,12 +132,12 @@
  }
 
  .soft h3 {
-  margin: 30px 0;
+  margin: 1.875rem 0;
  }
 
  .itens-soft {
-  width: 220px;
-  margin-top: 20px;
+  width: 13.75rem;
+  margin-top: 1.25rem;
  }
 
  .skills::before {
@@ -172,7 +172,7 @@
  }
 
  .lista-skills ul {
-  width: 415px;
+  width: 25.9375rem;
  }
 
  .skills::before {
@@ -194,7 +194,7 @@
  }
 
  .lista-skills ul {
-  width: 345px;
+  width: 21.5625rem;
   font-size: 1rem;
  }
 
@@ -214,7 +214,7 @@
  }
 
  .itens-soft {
-  width: 185px;
+  width: 11.5625rem;
  }
 
  .itens-soft li::before{

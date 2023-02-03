@@ -73,7 +73,7 @@
  font-family: "roboto medium", Arial, Helvetica, sans-serif;
  font-weight: 600;
  margin: .9375rem;
- letter-spacing: 0.5px
+ letter-spacing: .0313rem;
 }
 
 .descricao-card ul li {
@@ -97,107 +97,106 @@
  }
   
  .cards div:first-child {
-   height: 191px;
-  }
+  height: 191px;
+ }
    
-   .cards div:last-child {
-    height: 150px;
-   }
+ .cards div:last-child {
+  height: 150px;
+ }
 
-   .descricao-card h3 {
-    font-size: 1rem;
-   }
+ .descricao-card h3 {
+  font-size: 1rem;
+ }
    
-   .descricao-card ul li {
-    font-size: .8125rem;
-    padding: .3125rem .625rem;
-   }
+ .descricao-card ul li {
+  font-size: .8125rem;
+  padding: .3125rem .625rem;
+ }
 
-   .projetos::after {
-    right: 0px;
-    top: 135px;
-    transform: rotate(-20deg);
-   }
+ .projetos::after {
+  right: 0px;
+  top: 135px;
+  transform: rotate(-20deg);
+ }
    
-   .projetos::before {
-    bottom: 50px;
-    left: 0px;
-    transform: rotate(160deg);
-   }
+ .projetos::before {
+  bottom: 50px;
+  left: 0px;
+  transform: rotate(160deg);
+ }
 
 }
 
 @media (max-width: 790px) {
-  .projetos {
-   grid-template-columns: 1fr;
-  }
+ .projetos {
+  grid-template-columns: 1fr;
+ }
 
-  .projetos h2 {
-   grid-column: span 1;
-   margin-bottom: 10px;
-  }
+ .projetos h2 {
+  grid-column: span 1;
+  margin-bottom: 10px;
+ }
 
-  .cards {
-   grid-template-columns: 290px;
-  }
+ .cards {
+  grid-template-columns: 290px;
+ }
    
-  .cards div:first-child {
-   height: 255px;
-  }
+ .cards div:first-child {
+  height: 255px;
+ }
     
-  .cards div:last-child {
-   height: 200px;
-  }
+ .cards div:last-child {
+  height: 200px;
+ }
 
  .descricao-card h3 {
-   font-size: 1.25rem;
-  }
+  font-size: 1.25rem;
+ }
 
-  .descricao-card ul li {
-   font-size: 1rem;
-   padding: .5rem .9375rem;
-  }
+ .descricao-card ul li {
+  font-size: 1rem;
+  padding: .5rem .9375rem;
+ }
 
-  .projetos::after {
-   top: 145px;
-   transform: rotate(10deg);
-  }
+ .projetos::after {
+  top: 145px;
+  transform: rotate(10deg);
+ }
    
-  .projetos::before {
-   transform: rotate(190deg);
-  }
+ .projetos::before {
+  transform: rotate(190deg);
+ }
 
 }
 
  @media (max-width: 400px) {
-  .cards {
-   grid-template-columns: 217px;
-  }
+ .cards {
+  grid-template-columns: 217px;
+ }
    
-  .cards div:first-child {
-   height: 191px;
-  }
+ .cards div:first-child {
+  height: 191px;
+ }
     
-  .cards div:last-child {
-   height: 150px;
-  }
+ .cards div:last-child {
+  height: 150px;
+ }
  
-  .descricao-card h3 {
-   font-size: 1rem;
-  }
+ .descricao-card h3 {
+  font-size: 1rem;
+ }
     
-  .descricao-card ul li {
-   font-size: .8125rem;
-   padding: .3125rem .625rem;
-  }
+ .descricao-card ul li {
+  font-size: .8125rem;
+  padding: .3125rem .625rem;
+ }
  
-  .projetos::after {
-   top: 145px;
-   transform: rotate(0deg);
-  }
+ .projetos::after {
+  top: 145px;
+  transform: rotate(0deg);
+ }
     
-  .projetos::before {
-   transform: rotate(180deg);
-  }
- 
+ .projetos::before {
+  transform: rotate(180deg);
+ }
 }
