@@ -224,3 +224,16 @@
   top: 2.5px;
  }
 }
+
+@media (max-width: 400px) {
+ .lista-skills {
+  justify-items: start;
+ }
+ 
+ .lista-skills h3 {
+  justify-self: center;
+ }
+ .lista-skills ul {
+  width: auto;
+ }
+}
