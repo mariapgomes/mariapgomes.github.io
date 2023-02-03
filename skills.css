@@ -150,7 +150,7 @@
   right: 10px;
   bottom: 125px;
   transform: rotate(-70deg);
-}
+ }
 }
 
 @media (max-width: 865px){
@@ -173,7 +173,6 @@
 
  .lista-skills ul {
   width: 415px;
-  /* font-size: 1rem; */
  }
 
  .skills::before {
@@ -186,5 +185,42 @@
   right: 10px;
   bottom: 50px;
   transform: rotate(-90deg);
+ }
 }
+
+@media (max-width: 475px){
+ .lista-skills h3, .soft h3 {
+  font-size: 1.375rem;
+ }
+
+ .lista-skills ul {
+  width: 345px;
+  font-size: 1rem;
+ }
+
+ .itens-lista h4::before {
+  content: "";
+  width: 4px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: #CB1C8D;
+  position: absolute;
+  left: -10px;
+  top: 0;
+ }
+
+ .soft ul {
+  font-size: 1rem;
+ }
+
+ .itens-soft {
+  width: 185px;
+ }
+
+ .itens-soft li::before{
+  width: 10px;
+  height: 10px;
+  left: 0;
+  top: 2.5px;
+ }
 }
