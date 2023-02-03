@@ -23,6 +23,7 @@
  font-family: "roboto medium", Arial, Helvetica, sans-serif;
  font-weight: 600;
  margin: 0 0 5px 0;
+ letter-spacing: 0.5px
 }
 
 .itens-lista p {
@@ -104,7 +105,7 @@
  position: relative;
 }
 
-.enfeite1-2::before {
+.skills::before {
   content: '';
   width: 40px;
   height: 36px;
@@ -148,5 +149,41 @@
   right: 10px;
   bottom: 125px;
   transform: rotate(-70deg);
+}
+}
+
+@media (max-width: 865px){
+ .skills {
+  grid-template-columns: 1fr;
+ }
+ .skills h2 {
+  grid-column: span 1;
+ }
+
+ .lista-skills {
+  display: grid;
+  grid-template-columns: 1fr;
+ justify-items: center;
+ }
+
+ .lista-skills h3, .soft h3 {
+  font-size: 1.5625rem;
+ }
+
+ .lista-skills ul {
+  width: 415px;
+  /* font-size: 1rem; */
+ }
+
+ .skills::before {
+  left: 0px;
+  top: 150px;
+  transform: rotate(270deg);
+ }
+
+ .skills::after {
+  right: 10px;
+  bottom: 50px;
+  transform: rotate(-90deg);
 }
 }
