@@ -114,7 +114,7 @@
  }
 
  .projetos::after {
-  right: 0px;
+  right: 5px;
   top: 135px;
   transform: rotate(-20deg);
  }

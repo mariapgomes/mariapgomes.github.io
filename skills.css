@@ -102,18 +102,14 @@
   transform: rotate(-5deg);
 }
 
-.enfeite1-2 {
- position: relative;
-}
-
 .skills::before {
   content: '';
   width: 40px;
   height: 36px;
   background-image: url(./imagens/enfeite-1.svg);
   position: absolute;
-  left: -15px;
-  top: -30px;
+  left: 10px;
+  top: 170px;
   transform: rotate(270deg);
 }
 
@@ -143,11 +139,10 @@
  .skills::before {
   left: 10px;
   top: 150px;
-  transform: rotate(270deg);
  }
 
  .skills::after {
-  right: 10px;
+  right: 20px;
   bottom: 125px;
   transform: rotate(-70deg);
  }
