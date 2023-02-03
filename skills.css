@@ -4,7 +4,7 @@
  gap: 20px;
  max-width: 1400px;
  margin: 0 auto;
- padding: 100px 0;
+ padding: 100px 20px;
 }
 
 .lista-skills h3{
@@ -51,7 +51,7 @@
  display: flex;
  align-items: center;
  gap: 20px;
- position: relative;
+ flex-wrap: wrap;
 }
 
 .soft h3, ul li{
@@ -66,6 +66,7 @@
 .itens-soft {
  display: flex;
  gap: 20px;
+ flex-wrap: wrap;
 }
 
 .itens-soft li {
@@ -84,28 +85,68 @@
  top: 5px;
 }
 
-.soft::after {
+.skills {
+ position: relative;
+}
+
+.skills::after {
   content: '';
   width: 104px;
   height: 104px;
   background-image: url(./imagens/enfeite-2.svg);
   position: absolute;
-  right: -45px;
-  bottom: 0px;
+  right: 30px;
+  bottom: 110px;
   transform: rotate(-5deg);
 }
 
-.enfeite2 {
+.enfeite1-2 {
  position: relative;
 }
 
-.enfeite2::before {
+.enfeite1-2::before {
   content: '';
   width: 40px;
   height: 36px;
   background-image: url(./imagens/enfeite-1.svg);
   position: absolute;
-  left: -30px;
+  left: -15px;
   top: -30px;
   transform: rotate(270deg);
+}
+
+@media (max-width: 1280px) {
+ .skills {
+  grid-template-columns: 1fr 1fr;
+ }
+ .skills h2 {
+  grid-column: span 2;
+ }
+
+ .soft {
+  grid-column: span 1;
+  display: block;
+  text-align: center;
+ }
+
+ .soft h3 {
+  margin: 30px 0;
+ }
+
+ .itens-soft {
+  width: 220px;
+  margin-top: 20px;
+ }
+
+ .enfeite1-2::before {
+  left: -10px;
+  top: -30px;
+  transform: rotate(270deg);
+ }
+
+ .skills::after {
+  right: 10px;
+  bottom: 125px;
+  transform: rotate(-70deg);
+}
 }
