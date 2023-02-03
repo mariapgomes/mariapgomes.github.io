@@ -68,3 +68,26 @@
   margin: 35px;
  }
 }
+
+@media (max-width: 835px) {
+ .lista-contatos li a img{
+  width: 31px;
+  height: 31px;
+  padding: 26px;
+ }
+
+ .lista-contatos li {
+  margin: 16px;
+ }
+
+ .container-contatos::before {
+  content: '';
+  width: 40px;
+  height: 36px;
+  background-image: url(./imagens/enfeite-1.svg);
+  position: absolute;
+  bottom: 40px;
+  left: 5px;
+  transform: rotate(180deg);
+ }
+}
