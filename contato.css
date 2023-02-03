@@ -91,3 +91,13 @@
   transform: rotate(180deg);
  }
 }
+
+@media (max-width: 530px) {
+ .container-contatos {
+  max-width: 270px;
+ }
+
+ .lista-contatos{
+  text-align: center;
+ }
+}
