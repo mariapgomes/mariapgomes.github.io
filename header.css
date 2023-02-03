@@ -4,7 +4,6 @@
  display: grid;
  grid-template-columns: 1fr 400px 1fr;
  align-items: center;
- /* justify-content: center; */
  margin: 20px auto;
 }
 
@@ -32,7 +31,7 @@ header {
  padding: .625rem 0;
 }
 
-.lista li a:hover {
+#botao-contato:hover {
  color: #CB1C8D;
 }
 
@@ -52,50 +51,13 @@ header {
  color: #FFE5F6;
 }
 
-@media (max-width: 750px) {
- .navegacao {
-  padding: 0 10px
- }
-
+@media (max-width: 1120px) {
  .lista {
   gap: 20px;
+  font-size: 1.125rem;
+ }
+
+ #botao-contato {
+  font-size: 1.125rem;
  }
 }
-
- @media (max-width: 775px) {
-  /* .navegacao {
-   padding: 0 10px;
-   grid-template-columns: 1fr minmax(120px, 128px);
-   margin: 0px;
-  }
-
-  .navegacao a {
-    font-size: 1rem;
-   }
-
-  #logo {
-   margin: 30px;
-   grid-column: span 2;
-   justify-self: center;
-  } */
- }
-
- @media (max-width: 550px) {
-  /* #logo {
-    grid-column: 1;
-    margin-bottom: 10px;
-   }
-
-  .navegacao {
-    grid-template-columns: 1fr;
-    gap: 20px;
-   }
-
-   .navegacao a {
-    font-size: 1rem;
-   }
-
-   #botao-contato {
-    justify-self: center;
-   } */
- }

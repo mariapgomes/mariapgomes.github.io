@@ -57,7 +57,7 @@
  transition: 500ms;
 }
 
-@media (max-width: 1130px) {
+@media (max-width: 1170px) {
  .lista-contatos li a img{
   width: 45px;
   height: 45px;
