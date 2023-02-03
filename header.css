@@ -61,3 +61,13 @@ header {
   font-size: 1.125rem;
  }
 }
+
+@media (max-width: 850px) {
+ .lista {
+  font-size: 1.125rem;
+ }
+  
+ #botao-contato {
+  font-size: 1.125rem;
+ }
+}
