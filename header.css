@@ -90,3 +90,13 @@ header {
   width: 95px;
  }
 }
+
+@media (max-width: 560px) {
+ .navegacao {
+  grid-template-columns: 1fr 1fr 1fr;
+ }
+ 
+ .lista li {
+  display: none;
+ }
+}
