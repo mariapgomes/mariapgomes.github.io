@@ -1,7 +1,7 @@
 .container-projetos {
  display: grid;
  grid-template-columns: 1fr;
- /* gap: 2.1875rem; */
+ gap: 2.1875rem;
  max-width: 1200px;
  margin: 0 auto;
  padding: 100px 20px;
@@ -9,13 +9,13 @@
 }
 
 .projetos {
-  display: grid;
+ display: grid;
  grid-template-columns: repeat(3, 1fr);
-  gap: 2.1875rem;
+ gap: 2.1875rem;
 }
 
 .container-projetos h2 {
-  grid-column: span 1;
+ grid-column: span 1;
 }
 
 .projetos::after {
@@ -102,6 +102,10 @@
 }
 
 @media (max-width: 1000px) {
+ .container-projetos {
+  gap: 0;
+ }
+
  .projetos{
   justify-self: center;
   width: 550px;
@@ -124,12 +128,14 @@
 
 @media (max-width: 790px) {
  .container-projetos {
-  padding: 100px 10;
+  padding: 100px 10px;
  }
+
  .projetos{
   width: 400px;
   padding: 50px 10px;
  }
+
  .cards {
   grid-template-columns: 217px;
  }
