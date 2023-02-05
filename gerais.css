@@ -28,6 +28,25 @@
  font-weight: 600;
 }
 
+* {
+ scrollbar-width: thin;
+ scrollbar-color: #CB1C8D #FFE5F6;
+}
+
+*::-webkit-scrollbar {
+ width: 5px;
+ height: 5px;
+}
+
+*::-webkit-scrollbar-track {
+ background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+ background-color: #CB1C8D;
+ border-radius: 20px;
+}
+
 html {
  scroll-behavior: smooth;
 }
