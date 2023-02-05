@@ -31,10 +31,6 @@ header {
  padding: .625rem 0;
 }
 
-#botao-contato:hover {
- color: #CB1C8D;
-}
-
 #botao-contato {
  justify-self: end;
  padding: .625rem 1.5625rem;
@@ -49,6 +45,7 @@ header {
 #botao-contato:hover {
  background-color: #CB1C8D;
  color: #FFE5F6;
+ transition: 0.3s;
 }
 
 @media (max-width: 1120px) {

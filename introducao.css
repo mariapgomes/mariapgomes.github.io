@@ -60,6 +60,7 @@ span {
  background-color: transparent;
  color: #CB1C8D;
  border-color: #CB1C8D;
+ transition: 0.3s;
 }
 
 #botao-cv {
@@ -68,6 +69,7 @@ span {
 
 #botao-cv:hover {
  border-color: #CB1C8D;
+ transition: 0.3s;
 }
 
 @media (max-width: 1120px) {
