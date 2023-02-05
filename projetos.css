@@ -161,34 +161,10 @@
  }
 }
 
- @media (max-width: 400px) {
- .cards {
-  grid-template-columns: 217px;
- }
-   
- .cards div:first-child {
-  height: 191px;
- }
-    
- .cards div:last-child {
-  height: 150px;
- }
- 
- .descricao-card h3 {
-  font-size: 1rem;
- }
-    
- .descricao-card ul li {
-  font-size: .8125rem;
-  padding: .3125rem .625rem;
- }
- 
- .projetos::after {
-  top: 145px;
-  transform: rotate(0deg);
- }
-    
- .projetos::before {
-  transform: rotate(180deg);
+@media (max-width: 455px) {
+ .projetos{
+  width: 250px;
+  padding: 50px 10px;
+  gap: 25px;
  }
 }
