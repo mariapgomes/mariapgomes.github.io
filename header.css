@@ -31,6 +31,11 @@ header {
  padding: .625rem 0;
 }
 
+.lista li a:hover {
+ color: #CB1C8D;
+ transition: 0.3s;
+}
+
 #botao-contato {
  justify-self: end;
  padding: .625rem 1.5625rem;
