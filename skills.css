@@ -124,8 +124,97 @@
  transform: rotate(270deg);
 }
 
-/* @media (max-width: 1280px) {
-   */
+@media (max-width: 1280px) {
+ .abas-skills {
+  justify-self: center;
+  position: relative;
+  width: 650px;
+  height: 595px;
+ }
+
+ .conteudo-skills {
+  display: inline-block;
+ }
+
+ .abas-skills ul li {
+  float: left;
+ }
+
+ .abas-skills label {
+  display: inline-block;
+  font-family: "roboto medium", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: .0313rem;
+  color: #CB1C8D;
+  padding: .625rem 1.5625rem;
+  width: 100px;
+  border: 2px solid #CB1C8D;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+ }
+
+ .abas-skills label:hover {
+  background-color: #CB1C8D;
+  color: #F6EDF3;
+ }
+
+ input:checked ~ label {
+  background-color: #CB1C8D;
+  color: #F6EDF3;
+ }
+
+ .lista-skills ul {
+  display: grid;
+  grid-template-columns: 415px;
+  justify-content: center;
+  padding: 20px;
+  margin: auto;
+ }
+
+ .itens-lista {
+  margin: 20px 0;
+ }
+
+ .lista-skills, .soft {
+  border: 2px solid #CB1C8D;
+  border-radius: 0 10px 10px 10px;
+  width: 650px;
+  height: 550px;
+  left: 0;
+  position: absolute; 
+  display: none;
+  transition: 0.3s;
+ }
+
+ .lista-skills h3, .soft h3{ 
+  display: none;
+ }
+
+ input:checked ~ .lista-skills, input:checked ~ .soft{
+  display: block;
+ }
+
+ .itens-soft {
+  width: 13.75rem;
+  padding: 20px;
+  margin: 157px auto;
+ }
+
+ .skills::before {
+  left: 5px;
+  top: 100px;
+  transform: rotate(-80deg);
+ }
+
+ .skills::after {
+  right: 20px;
+  bottom: 70px;
+  transform: rotate(-70deg);
+ }
+}
 
 @media (max-width: 0px){
  /* .skills {
