@@ -43,7 +43,7 @@
  content: '';
  width: 16px;
  height: 126px;
- background-image: url(./imagens/icone-lista.svg);
+ background-image: url(/imagens/icone-lista.svg);
  position: absolute;
  left: -20px;
  top: -25px;
@@ -106,7 +106,7 @@
  content: '';
  width: 104px;
  height: 104px;
- background-image: url(./imagens/enfeite-2.svg);
+ background-image: url(/imagens/enfeite-2.svg);
  position: absolute;
  right: 30px;
  bottom: 110px;
@@ -117,7 +117,7 @@
  content: '';
  width: 40px;
  height: 36px;
- background-image: url(./imagens/enfeite-1.svg);
+ background-image: url(/imagens/enfeite-1.svg);
  position: absolute;
  left: 10px;
  top: 170px;
@@ -310,7 +310,7 @@
  }
 }
 
-/* @media (max-width: 495px) {
+@media (max-width: 495px) {
  .lista-skills {
   justify-items: start;
  }
@@ -321,4 +321,4 @@
  .lista-skills ul {
   width: auto;
  }
-} */
+}
