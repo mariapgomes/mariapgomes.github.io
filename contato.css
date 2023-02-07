@@ -41,6 +41,7 @@
  background-image: radial-gradient(#FFE5F6 15%, #E351B0 70%);
  border-radius: 100px;
  margin: 50px;
+ /* display: inline-block; */
 }
 
 .lista-contatos li a{
