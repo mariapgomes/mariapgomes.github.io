@@ -1,39 +1,62 @@
 @font-face {
  font-family: "roboto regular";
- src: local(roboto), url(./fontes/Roboto-Regular.ttf);
+ src: local(roboto), url(/fontes/Roboto-Regular.ttf);
  font-weight: 400;
 }
 
 @font-face {
  font-family: "roboto medium";
- src: local(roboto), url(./fontes/Roboto-Medium.ttf);
+ src: local(roboto), url(/fontes/Roboto-Medium.ttf);
  font-weight: 500;
 }
 
 @font-face {
  font-family: "fira sans-regular";
- src: local("fira sans"), url(./fontes/FiraSans-Regular.ttf);
+ src: local("fira sans"), url(/fontes/FiraSans-Regular.ttf);
  font-weight: 400;
 }
 
 @font-face {
  font-family: "fira sans-medium";
- src: local("fira sans"), url(./fontes/FiraSans-Medium.ttf);
+ src: local("fira sans"), url(/fontes/FiraSans-Medium.ttf);
  font-weight: 500;
 }
 
 @font-face {
  font-family: "fira sans-semibold";
- src: local("fira sans"), url(./fontes/FiraSans-SemiBold.ttf);
+ src: local("fira sans"), url(/fontes/FiraSans-SemiBold.ttf);
  font-weight: 600;
 }
 
-html {
- scroll-behavior: smooth;
+* {
+ scrollbar-color: #CB1C8D #FFE5F6;
+}
+
+*::-webkit-scrollbar {
+ width: 5px;
+ height: 5px;
+}
+
+*::-webkit-scrollbar-track {
+ background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+ background-color: #CB1C8D;
+ border-radius: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+ html {
+  scroll-behavior: smooth;
+ }
+}
+
+:target {
+ scroll-margin-top: 80px;
 }
 
 body {
- /* max-width: 1400px; */
  margin: 0;
  min-width: 15px;
  background-color: #F2F2F2;
@@ -43,17 +66,11 @@ body {
  padding-top: 88px;
 }
 
-@media (max-width: 1550px) {
- body {
-  /* padding: 0 80px; */
- }
-}
-
 a {
  text-decoration: none;
  padding: .625rem 1.25rem;
  color: #141214;
- /* font-size: 1.25rem; */
+ letter-spacing: .0313rem;
  border: solid 2px transparent;
  border-radius: 5px;
 }
@@ -70,12 +87,13 @@ h1 {
 }
 
 h2, h3, h4 {
-  font-weight: normal;
- }
+ font-weight: normal;
+}
 
 strong {
  font-family: "roboto medium", Arial, Helvetica, sans-serif;
  font-weight: 600;
+ letter-spacing: .0313rem;
 }
 
 .titulo-secao {
@@ -98,3 +116,26 @@ strong {
  bottom: 0;
  right: 0;
 }
+
+
+ @media (max-width: 810px) {
+ .titulo-secao {
+  font-size: 2.1875rem;
+ }
+
+ .titulo-secao::after {
+  width: 30px;
+  height: 3px;
+ }
+}
+
+@media (max-width: 635px) {
+ .titulo-secao {
+  font-size: 1.6875rem;
+ }
+
+ .titulo-secao::after {
+  width: 25px;
+ }
+}
+ 

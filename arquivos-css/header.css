@@ -1,8 +1,8 @@
 .navegacao {
  max-width: 1400px;
- padding: 0 80px;
+ padding: 0 20px;
  display: grid;
- grid-template-columns: repeat(3, 1fr);
+ grid-template-columns: 1fr 400px 1fr;
  align-items: center;
  margin: 20px auto;
 }
@@ -14,6 +14,10 @@ header {
  top: 0;
  left: 0;
  right: 0;
+}
+
+.ancora-logo{
+ padding: 0;
 }
 
 .lista {
@@ -29,6 +33,7 @@ header {
 
 .lista li a:hover {
  color: #CB1C8D;
+ transition: 0.3s;
 }
 
 #botao-contato {
@@ -45,52 +50,55 @@ header {
 #botao-contato:hover {
  background-color: #CB1C8D;
  color: #FFE5F6;
+ transition: 0.3s;
 }
 
-@media (max-width: 1350px) {
-  .navegacao {
-   grid-template-columns: 1fr 400px 1fr;
-  }
-
+@media (max-width: 1120px) {
  .lista {
   gap: 20px;
+  font-size: 1.125rem;
+ }
+
+ #botao-contato {
+  font-size: 1.125rem;
  }
 }
 
- @media (max-width: 775px) {
-  .navegacao {
-   padding: 0 10px;
-   grid-template-columns: 1fr minmax(120px, 128px);
-   margin: 0px;
-  }
+@media (max-width: 850px) {
+ .lista {
+  font-size: 1.125rem;
+ }
+  
+ #botao-contato {
+  font-size: 1.125rem;
+ }
+}
 
-  .navegacao a {
-    font-size: 1rem;
-   }
-
-  #logo {
-   margin: 30px;
-   grid-column: span 2;
-   justify-self: center;
-  }
+@media (max-width: 700px) {
+ .navegacao {
+  grid-template-columns: 1fr 225px 1fr;
  }
 
- @media (max-width: 550px) {
-  #logo {
-    grid-column: 1;
-    margin-bottom: 10px;
-   }
-
-  .navegacao {
-    grid-template-columns: 1fr;
-    gap: 20px;
-   }
-
-   .navegacao a {
-    font-size: 1rem;
-   }
-
-   #botao-contato {
-    justify-self: center;
-   }
+ .lista li:first-child{
+  display: none;
  }
+  
+ #botao-contato {
+  font-size: 1.125rem;
+  padding: .5rem 1.25rem;
+ }
+
+ .ancora-logo img{
+  width: 95px;
+ }
+}
+
+@media (max-width: 560px) {
+ .navegacao {
+  grid-template-columns: 1fr 1fr 1fr;
+ }
+ 
+ .lista li {
+  display: none;
+ }
+}
