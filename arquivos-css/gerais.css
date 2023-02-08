@@ -93,6 +93,7 @@ h2, h3, h4 {
 strong {
  font-family: "roboto medium", Arial, Helvetica, sans-serif;
  font-weight: 600;
+ letter-spacing: .0313rem;
 }
 
 .titulo-secao {
