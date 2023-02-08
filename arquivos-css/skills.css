@@ -124,6 +124,7 @@
  transform: rotate(270deg);
 }
 
+/* Cria o layout de abas. */
 @media (max-width: 1280px) {
  .abas-skills {
   justify-self: center;
@@ -146,8 +147,8 @@
   font-weight: 600;
   letter-spacing: .0313rem;
   color: #CB1C8D;
-  padding: .625rem 1.5625rem;
-  width: 100px;
+  width: 6.875rem;
+  padding: .625rem .9375rem;
   border: 2px solid #CB1C8D;
   border-bottom: none;
   border-radius: 10px 10px 0 0;
@@ -186,7 +187,6 @@
   left: 0;
   position: absolute; 
   display: none;
-  transition: 0.3s;
  }
 
  .lista-skills h3, .soft h3{ 
@@ -198,7 +198,7 @@
  }
 
  .itens-soft {
-  width: 13.75rem;
+  width: 220px;
   padding: 20px;
   margin: 157px auto;
  }
@@ -223,9 +223,9 @@
  }
 
  .abas-skills label {
-  font-size: 16px;
-  padding: .625rem .9375rem;
-  width: 80px;
+  font-size: 1rem;
+  padding: .625rem;
+  width: 5.625rem;
  }
 
  .lista-skills ul {
@@ -252,7 +252,6 @@
   width: 4px;
   height: 25px;
   border-radius: 10px;
-  background-color: #CB1C8D;
   left: -10px;
   top: 0;
  }
@@ -262,7 +261,7 @@
  }
 
  .itens-soft {
-  width: 11.5625rem;
+  width: 185px;
   padding: 20px;
   margin: 143px auto;
  }
@@ -282,8 +281,8 @@
  }
 
  .abas-skills label {
-  margin: 10px;
-  border-bottom: 2px solid;
+  margin: 0 0 .9375rem 1rem;
+  border-bottom: 2px solid #CB1C8D;
   border-radius: 5px;
  }
 
@@ -298,7 +297,7 @@
 
  /* Tira o distanciamento entre as duas últimas labels, mantendo o conteúdo com o mesmo posicionamento do conteúdos das duas primeiras labels */
  .experiencia, .soft {
-  margin-top: 0px;
+  margin-top: 0;
  }
 
  .lista-skills ul {
@@ -310,7 +309,15 @@
  }
 
  .skills::after {
-  bottom: -20px;
-  /* display: none; */
+ width: 40px;
+ height: 36px;
+ background-image: url(/imagens/enfeite-1.svg);
+ right: 10px;
+ bottom: 25px;
+ transform: rotate(95deg);
+ }
+
+ .itens-soft {
+  margin: 103px auto;
  }
 }
