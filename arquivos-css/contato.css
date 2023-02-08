@@ -1,7 +1,7 @@
 .container-contatos {
  display: grid;
  grid-template-columns: 1fr;
- gap: 20px;
+ gap: 35px;
  max-width: 1400px;
  margin: 0 auto;
  padding: 50px 20px;

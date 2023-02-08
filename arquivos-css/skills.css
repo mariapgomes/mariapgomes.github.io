@@ -251,6 +251,7 @@
  .itens-lista h4::before {
   width: 4px;
   height: 25px;
+  background-color: #CB1C8D;
   border-radius: 10px;
   left: -10px;
   top: 0;
