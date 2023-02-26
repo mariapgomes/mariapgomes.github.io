@@ -240,10 +240,6 @@
   border-radius: 0 0px 10px 10px;
  }
 
- .skills::after {
-  bottom: 30px;
- }
-
  .itens-lista {
   padding: 0;
  }
