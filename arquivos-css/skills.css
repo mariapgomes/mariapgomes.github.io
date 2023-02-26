@@ -218,8 +218,8 @@
 
 @media (max-width: 700px){
  .abas-skills {
-  width: 450px;
-  height: 595px;
+  width: 455px;
+  height: 545px;
  }
 
  .abas-skills label {
@@ -235,7 +235,7 @@
  }
 
  .lista-skills, .soft {
-  width: 447px;
+  width: 451px;
   height: 500px;
   border-radius: 0 0px 10px 10px;
  }
