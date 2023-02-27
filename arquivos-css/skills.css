@@ -33,7 +33,6 @@
 
 .itens-lista h4{
  font-family: "roboto medium", Arial, Helvetica, sans-serif;
- font-weight: 600;
  margin: 0 0 5px 0;
  letter-spacing: .0313rem;
  position: relative;
@@ -144,7 +143,6 @@
  .abas-skills label {
   display: inline-block;
   font-family: "roboto medium", Arial, Helvetica, sans-serif;
-  font-weight: 600;
   letter-spacing: .0313rem;
   color: #CB1C8D;
   width: 6.875rem;
@@ -198,9 +196,9 @@
  }
 
  .itens-soft {
-  width: 220px;
+  width: 260px;
   padding: 20px;
-  margin: 157px auto;
+  margin: 95px auto;
  }
 
  .skills::before {
@@ -218,8 +216,8 @@
 
 @media (max-width: 700px){
  .abas-skills {
-  width: 450px;
-  height: 595px;
+  width: 456px;
+  height: 545px;
  }
 
  .abas-skills label {
@@ -235,13 +233,9 @@
  }
 
  .lista-skills, .soft {
-  width: 447px;
+  width: 452px;
   height: 500px;
   border-radius: 0 0px 10px 10px;
- }
-
- .skills::after {
-  bottom: 30px;
  }
 
  .itens-lista {
@@ -262,9 +256,9 @@
  }
 
  .itens-soft {
-  width: 185px;
+  width: 220px;
   padding: 20px;
-  margin: 143px auto;
+  margin: 87px auto;
  }
 
  .itens-soft li::before{
@@ -319,6 +313,6 @@
  }
 
  .itens-soft {
-  margin: 103px auto;
+  margin: 47px auto;
  }
 }
